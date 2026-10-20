@@ -11,8 +11,8 @@
 
 # Integrantes del Grupo
 
-- Augusto Rolandelli (187439)
-- Santiago Prelato (208127)
+- Augusto R - 39
+- Santiago P - 27
 
 ---
 
