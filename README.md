@@ -55,12 +55,12 @@ te valeras de la antigua sabiduria conocida como **Principio de Inversión de De
 2. **Refactorizar el Cliente (`CatalogoArtefactos`):**
     * Incorporar un constructor que reciba e inyecte una `EstrategiaDeMejora`:
       ```java
-      public CatalogoArtefactos(EstrategiaDeMejora estrategia)
+      public CatalogoArtefactos(EstrategiaDeMejora estrategia);
       ```
     * Mantener el constructor por defecto `public CatalogoArtefactos()` para preservar la compatibilidad con el Laboratorio 1.
     * Implementar el método de negocio:
       ```java
-      public void aplicarMejoras()
+      public void aplicarMejoras();
       ```
       Debe recorrer todos los artefactos del catálogo y delegar la mejora en la estrategia inyectada.
 
